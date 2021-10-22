@@ -18,7 +18,7 @@ const WorkoutForm = ({ formData, updateWorkoutForm, handleSubmit, editMode }) =>
       handleSubmit(formData)
     }}>
         <input placeholder="name" name="name" onChange={handleChange} value={name}/><br/>
-        <input placeholder="description" name="description" onChange={handleChange} value={description}/><br/>
+        <textarea placeholder="description" name="description" onChange={handleChange} value={description}/><br/>
         <input type="submit" value={editMode ? "Update Workout" : "Create Workout" }/>
     </form>
 )};
