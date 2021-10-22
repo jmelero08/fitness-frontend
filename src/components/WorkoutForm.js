@@ -1,5 +1,5 @@
 import React from 'react';
-import { updateWorkoutForm } from '../actions/workoutForm.js'
+import { updateWorkoutForm } from '../actions/WorkoutForm.js'
 import { connect } from 'react-redux'
 
 const WorkoutForm = ({ formData, updateWorkoutForm, handleSubmit, editMode }) => { 

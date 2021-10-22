@@ -4,14 +4,14 @@ import currentUser from './reducers/currentUser.js'
 import loginForm from './reducers/loginForm.js'
 import myWorkouts from './reducers/myWorkouts.js'
 import signupForm from './reducers/signupForm.js'
-import workouttForm from './reducers/WorkouttForm.js'
+import workoutForm from './reducers/workoutForm.js'
 
 const reducer = combineReducers({
     currentUser,
     loginForm,
     myWorkouts,
     signupForm,
-    workouttForm
+    workoutForm
   })
   
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

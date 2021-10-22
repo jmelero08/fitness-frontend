@@ -7,7 +7,7 @@ import Home from "./components/Home.js"
 import Login from './components/Login.js'
 import Signup from './components/SignUp.js'
 import MyWorkouts from './components/MyWorkouts.js'
-import WorkoutCard from './components/RestrauantCard';
+import WorkoutCard from './components/WorkoutCard';
 import NewWorkoutFormWrapper from './components/NewWorkoutFormWrapper'
 import EditWorkoutFormWrapper from './components/EditWorkoutFormWrapper'
 import { Route, Switch, withRouter } from 'react-router-dom'

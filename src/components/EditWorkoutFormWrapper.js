@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkoutForm from './WorkoutForm'
 import { updateWorkout, deleteWorkout } from '../actions/myWorkouts'
-import { setFormDataForEdit, resetWorkoutForm } from '../actions/workoutForm'
+import { setFormDataForEdit, resetWorkoutForm } from '../actions/WorkoutForm'
 import { connect } from 'react-redux'
 
 class EditWorkoutFormWrapper extends React.Component {
