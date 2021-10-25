@@ -40,7 +40,39 @@
 .NavBar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+
+.NavBar h3 {
+  margin: 0 15px;
+  padding: 0;
+  color: rgb(236, 131, 82);
+  font-family: Brush Script MT;
+  font-size: 2.2em
+}
+
+.NavBar span {
+  margin: 13px 10px 0px 20px;
+  text-align: right;
+}
+
+.WorkoutCard {
+  width: 30%;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.WorkoutCard h3 {
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 .active {

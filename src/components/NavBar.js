@@ -6,9 +6,11 @@ import Logout from './Logout'
 const NavBar = ({ currentUser, loggedIn }) => {
   return (
     <div className="NavBar">
-      <NavLink exact activeClassName="active" to="/workouts"  >My Workouts</NavLink>
-      <NavLink exact activeClassName="active" to="/workouts/new" >New Workout</NavLink>
-      { loggedIn ? <><p id="loggedin">Logged in as {currentUser.attributes.name}</p><Logout/></> : null}
+      <h3>Workout Tracker</h3>
+      <span className="NavLink"><NavLink exact activeClassName="active" to="/workouts"  >My Workouts</NavLink></span>
+      <span className="NavLink"><NavLink exact activeClassName="active" to="/workouts/new" >New Workout</NavLink></span>
+      { currentUser ? <span className="Greeting">Hi {currentUser.attributes.name}!</span> : "" }
+      <span className="Logout">{ currentUser ? <Logout/> : null }</span>
     </div>
   )
 }
@@ -16,7 +18,6 @@ const NavBar = ({ currentUser, loggedIn }) => {
 const mapStateToProps = ({currentUser}) => {
     return ({
       currentUser,
-      loggedIn: !!currentUser,
     })
 }
 

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const WorkoutCard = ({ workout }) => {
   return (
     workout ?
-      <div>
+      <div className="WorkoutCard">
         <h3>{workout.attributes.name}</h3>
         <p>{workout.attributes.description}</p>
         <Link to={`/workouts/${workout.id}/edit`}>Edit this Workout</Link>
