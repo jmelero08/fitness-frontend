@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .App-logo {
@@ -14,14 +15,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #181b20;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(51, 40, 40);
 }
 
 .App-link {
@@ -43,15 +44,15 @@
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: white;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(78, 75, 75);
   margin-bottom: 30px;
 }
 
 .NavBar h3 {
   margin: 0 15px;
   padding: 0;
-  color: rgb(236, 131, 82);
-  font-family: Brush Script MT;
+  color: rgb(6, 70, 56);
+  font-family: Droid Sans;
   font-size: 2.2em
 }
 
@@ -62,8 +63,8 @@
 
 .WorkoutCard {
   width: 30%;
-  background-color: white;
-  border: 1px solid lightgray;
+  background-color: rgb(96, 233, 126);
+  border: 1px solid rgb(14, 13, 13);
   border-radius: 3px;
   margin: auto;
   margin-bottom: 10px;
@@ -77,4 +78,12 @@
 
 .active {
   color: green 
+}
+
+
+.MyWorkouts {
+  font-family: Droid Sans;
+  font-size: x-large;
+  border: 1px solid rgb(14, 13, 13);
+  background-color: rgb(101, 233, 156)
 }
