@@ -1,6 +1,6 @@
 const initialState = []
 
-export default (state = initialState, action) => {
+const myWorkouts = (state = initialState, action) => {
   switch (action.type) {
     case "SET_MY_WORKOUTS":
       return action.workouts
@@ -15,4 +15,6 @@ export default (state = initialState, action) => {
     default:
       return state
   }
-}
+};
+
+export default myWorkouts;

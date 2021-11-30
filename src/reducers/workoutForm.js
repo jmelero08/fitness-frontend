@@ -3,7 +3,7 @@ const initialState = {
     description: "",
   }
   
-  export default (state=initialState, action) => {
+  const workoutForm = (state=initialState, action) => {
     switch (action.type) {
       case "UPDATE_NEW_WORKOUT_FORM":          
       const returnVal = {
@@ -19,3 +19,5 @@ const initialState = {
         return state    
     }
   }
+
+  export default workoutForm;
